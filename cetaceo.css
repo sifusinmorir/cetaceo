@@ -1,0 +1,42 @@
+html{
+    font-size: 12px;
+    background-color: rgb(0, 0, 10);
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    margin: 40px;
+    font-size: 5rem;
+}
+#nave{
+    text-align: center;
+    font-size: 1.4rem;
+}
+a{
+    color: azure;
+    text-decoration-color: azure;
+}
+#txt{
+    color: beige;
+    font-size: 1.4rem;
+}
+section{
+    margin: 40px;
+}
+#imgn{
+    text-align: center;
+}
+label{
+    color: beige;
+    font-size: 1.4rem;
+}
+input{
+    background-color: antiquewhite;
+}
+form{
+    margin-top: 40px;
+    padding: 20px;   
+    background-color: rgb(55, 55, 55);
+    margin-left: 35%;
+    margin-right: 35%;
+}

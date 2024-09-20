@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cetaceo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+</head>
+<body >
+    <header>
+        <h1>Contactanos</h1>
+    </header>
+    <nav id="nave">
+        <a href="main.html">MAIN</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="sus1.html">BALLENA</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="sus2.html">DELFINE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="sus3.html">ORCA</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="sus4.html">CACHALOTE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="sus5.html">BELUGA</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="sus6.html">CONTACTANOS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </nav>
+    <form action="/enviar" method="post">
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="nombre completo">
+        <br><br>
+        
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required placeholder="nombre@gmail.com">
+        <br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="xxx-xxx-xxxx">
+        <br><br>
+
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+        </select>
+        <br><br>
+
+        <label for="comentario">Comentario:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="50" style="width: 80%;" placeholder="mensaje"></textarea>
+        <br><br>
+        
+        <button type="submit">Enviar</button>
+    </form>    
+</body>
+</html>
